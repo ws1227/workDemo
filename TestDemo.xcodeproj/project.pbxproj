@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		115464DF1E84FB380057A760 /* NewTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 115464DE1E84FB380057A760 /* NewTestViewController.m */; };
 		11F9C6531E5457B7003BAAEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F9C6521E5457B7003BAAEA /* main.m */; };
 		11F9C6561E5457B7003BAAEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F9C6551E5457B7003BAAEA /* AppDelegate.m */; };
 		11F9C6591E5457B7003BAAEA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F9C6581E5457B7003BAAEA /* ViewController.m */; };
@@ -40,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		115464DD1E84FB380057A760 /* NewTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTestViewController.h; sourceTree = "<group>"; };
+		115464DE1E84FB380057A760 /* NewTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTestViewController.m; sourceTree = "<group>"; };
 		11F9C64E1E5457B7003BAAEA /* TestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11F9C6521E5457B7003BAAEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		11F9C6541E5457B7003BAAEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -127,6 +130,8 @@
 				11F9C6941E55AF23003BAAEA /* Person+category.h */,
 				11F9C6951E55AF23003BAAEA /* Person+category.m */,
 				11F9C65A1E5457B7003BAAEA /* Main.storyboard */,
+				115464DD1E84FB380057A760 /* NewTestViewController.h */,
+				115464DE1E84FB380057A760 /* NewTestViewController.m */,
 				11F9C65D1E5457B7003BAAEA /* Assets.xcassets */,
 				11F9C65F1E5457B7003BAAEA /* LaunchScreen.storyboard */,
 				11F9C6621E5457B7003BAAEA /* Info.plist */,
@@ -303,6 +308,7 @@
 				11F9C6961E55AF23003BAAEA /* Person+category.m in Sources */,
 				11F9C6591E5457B7003BAAEA /* ViewController.m in Sources */,
 				11F9C6561E5457B7003BAAEA /* AppDelegate.m in Sources */,
+				115464DF1E84FB380057A760 /* NewTestViewController.m in Sources */,
 				11F9C6931E55AB02003BAAEA /* Person.m in Sources */,
 				11F9C6531E5457B7003BAAEA /* main.m in Sources */,
 				11F9C6991E56AC0A003BAAEA /* NSObject+Extension.m in Sources */,
