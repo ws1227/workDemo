@@ -29,6 +29,7 @@
     _thread=[[YQThread alloc]initWithTarget:self selector:@selector(testss) object:nil];
     [_thread start];
     
+    NSLog(@"测试变化");
     
     Method m1=class_getClassMethod([Person class], @selector(run));
     Method m2=class_getClassMethod([Person class], @selector(study));
