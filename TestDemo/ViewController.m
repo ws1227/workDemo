@@ -30,7 +30,8 @@
     [_thread start];
     
     NSLog(@"测试变化");
-    
+    NSLog(@"测试变化哈哈");
+
     Method m1=class_getClassMethod([Person class], @selector(run));
     Method m2=class_getClassMethod([Person class], @selector(study));
     method_exchangeImplementations(m1, m2);
