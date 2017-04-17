@@ -3,8 +3,11 @@
 #计时
 SECONDS=0
 
+cd /Users/panhongliu/workDemo/
+
 #假设脚本放置在与项目相同的路径下
 project_path=$(pwd)
+
 #取当前时间字符串添加到文件结尾
 now=$(date +"%Y_%m_%d_%H_%M_%S")
 #指定项目名称
@@ -20,7 +23,7 @@ firToken="53651903eb5fa8cc21c798074b2bf2db"
 #指定项目地址
 workspace_path="$project_path/${appName}.xcworkspace"
 #指定输出路径
-output_path="/Users/panhongliu/Documents/"
+output_path="/Users/panhongliu/Documents"
 #指定输出归档文件地址
 archive_path="$output_path/${appName}_${now}.xcarchive"
 #指定输出ipa地址
